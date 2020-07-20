@@ -1,0 +1,40 @@
+.mr-sm-2{
+    margin-left: 20px;
+    padding:10px;
+    background-color:rgb(113, 207, 179); 
+    text-align:center; 
+    color:white;
+    font-size: 3vh;
+}
+h2{
+    color:rgb(113, 207, 179);
+} 
+
+.btn{
+    background-color:rgb(113, 207, 179);
+}
+.pf-img{
+    padding:20px;
+}
+.green{
+    background-color:rgb(113, 207, 179);
+    height: 1vh;
+    position: absolute;
+    bottom: 4vh;
+}
+.gray{
+    background-color: gray;
+    height: 4vh;
+    text-align: center;
+    color:white;}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+.mr-sm-2{
+    font-size:3vh;
+}
+  }
