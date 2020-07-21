@@ -71,8 +71,11 @@ footer{
 .img-thumbnail{
     width:50%;
   }
+}
   @media screen and (max-width: 640px) {
-
+    .navbar-toggler{
+        margin-left:20px;
+    }
     .nameBox{
         margin-right:20px;
         width: 80%;
@@ -81,4 +84,3 @@ footer{
         width:100%;
     }
 }
-  
