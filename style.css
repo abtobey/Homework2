@@ -1,7 +1,7 @@
 .nameBox{
     margin-left: 20px;
     padding:20px;
-    background-color:rgb(113, 207, 179); 
+    background-color:rgb(0, 34, 68); 
     text-align:center; 
     color:white;
     font-size: 20px;
@@ -12,7 +12,7 @@
 
 }
 h2{
-    color:rgb(113, 207, 179);
+    color:rgb(0, 34, 68);
 } 
 .img-thumbnail{
     float:left;
@@ -22,7 +22,7 @@ hr{
     height:2px;
 }
 .btn{
-    background-color:rgb(113, 207, 179);
+    background-color:rgb(0, 34, 68);
 }
 p{
     text-indent:30px;
@@ -39,7 +39,7 @@ a{
 }
 .pf-img .img-text{
     position:absolute;
-    background-color:rgb(113, 207, 179);
+    background-color:rgb(47, 62, 97);
     top: 60%;
     left:0;
     right:0;
@@ -54,7 +54,7 @@ a{
     margin-bottom:10px;
 }
 .green{
-    background-color:rgb(113, 207, 179);
+    background-color:rgb(0, 34, 68);
     height: 1vh;
     position: fixed;
     bottom: 4vh;
@@ -75,6 +75,55 @@ footer{
 {
     margin:20px;
 }
+
+.flip-card {
+    background-color: transparent;
+    height: 200px;
+    width: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 200px;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    margin:auto;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 200px;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color:rgb(0, 34, 68);
+    color: white;
+    transform: rotateY(180deg);
+    font-size: 12px;
+    text-align: left;
+    padding:5px;
+  }
+
 @media screen and (max-width: 768px) {
 
 .img-thumbnail{
