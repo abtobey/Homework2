@@ -4,7 +4,7 @@
     background-color:rgb(0, 34, 68); 
     text-align:center; 
     color:white;
-    font-size: 20px;
+    font-size: 25px;
     width:250px;
 }
 .navbar{
@@ -13,6 +13,7 @@
 }
 h2{
     color:rgb(0, 34, 68);
+    text-align:center;
 } 
 .img-thumbnail{
     float:left;
@@ -35,7 +36,6 @@ a{
     display:inline-block;
     position: relative;
     text-align: center;
-
 }
 .pf-img .img-text{
     position:absolute;
@@ -51,20 +51,12 @@ a{
     color:white;
     line-height:1.5;
     margin-top:10px;
-    margin-bottom:10px;
 }
-.green{
-    background-color:rgb(0, 34, 68);
-    height: 1vh;
-    position: fixed;
-    bottom: 4vh;
-    width:100%;
+.container{
+    border-radius:10px;
+    box-shadow: 10px 5px 5px gray;
 }
-.gray{
-    background-color: gray;
-    height: 4vh;
-    text-align: center;
-    color:white;}
+
 footer{
     position: fixed;
     bottom: 0;
@@ -81,6 +73,7 @@ footer{
     height: 200px;
     width: 200px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+
   }
   
   /* This container is needed to position the front and back side */
@@ -106,6 +99,8 @@ footer{
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    border-radius: 10px;
+
   }
   
   /* Style the front side (fallback if image is missing) */
@@ -123,7 +118,9 @@ footer{
     text-align: left;
     padding:5px;
   }
-
+img{
+    border-radius: 10px;
+}
 @media screen and (max-width: 768px) {
 
 .img-thumbnail{
